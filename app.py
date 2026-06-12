@@ -10,7 +10,7 @@ items = [
 
 @app.route('/', methods=['GET'])
 def home():
-    return jsonify({"message": "Welcome to the Simple Flask API!"})
+    return jsonify({"message": "Welcome to the Simple Flask API! This is my first ci cd pipline"})
 
 @app.route('/api/items', methods=['GET'])
 def get_items():
