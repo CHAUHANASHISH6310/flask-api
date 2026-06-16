@@ -10,7 +10,7 @@
             
             // The SSH connection string for your second EC2 instance (App Server)
             // e.g., ubuntu@1.2.3.4 or ec2-user@1.2.3.4
-            APP_SERVER_IP = "ubuntu@65.2.81.52"
+            APP_SERVER_IP = "ubuntu@13.201.74.107"
             
             // This is the ID of the credentials you will create in Jenkins for the App Server SSH Key
             SSH_CREDENTIALS_ID = "app-server-ssh-key"
